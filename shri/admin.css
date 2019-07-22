@@ -1,0 +1,16 @@
+.bt{
+
+	height: 800px;
+	width: 1500px;
+	border-radius:25px;
+	color:white ;
+	padding: 20px;
+	background-image: url("admin12.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ad{
+
+
+	color: red;
+}

@@ -1,0 +1,12 @@
+.library{
+
+	height: 700px;
+	width: 1000px;
+	border-radius:60px;
+	color: red;
+	padding-right:20;
+	background-image: url("library5.jpg");
+	background-repeat:no-repeat; 
+	background-size:cover;
+	background-color: blue;
+}

@@ -1,0 +1,19 @@
+.abc{
+
+	height: 1000px;
+	width: 1600px;
+	border-radius:25px;
+	color:white ;
+	padding: 20px;
+	background-image: url("student11.jpg");
+	background-repeat: no-repeat; 
+	text-align:center;
+	background-size: cover;
+
+}
+
+.abd{
+
+	color: black;
+
+}

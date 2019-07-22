@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin</title>
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>	<link rel="stylesheet" type="text/css" href="book.css">
+	<script type="text/javascript" src="admin.js"></script>
+
+	
+</head>
+<body>
+
+	<div class="form">
+		<form action="add.html" method="post"  name="myform2"  onsubmit="return validate()">
+		<!-- <form name="myform" action="add.html"> -->
+
+			<div class="bt">
+				<h1 class="ad">Admin Page</h1>
+				Book Id:<br><input type="text" name="bid" placeholder="Book Id"><br><br>
+				
+				Language:<br><input type="radio" name="sid">Bengali<br>
+				<input type="radio" name="sid">Hindi<br><br>
+
+				Book Name:<br><input type="text" name="book_name"><br><br>
+				Author:<br><input type="text" name="author"><sup style="color: red;">*</sup><br><br>
+
+				Category:<br><select name="book">
+					<option value="hindi">Hindi</option>
+					<option value="english">English</option>
+					<option value="bengali">bengali</option>
+					<option value="canada">canada</option>
+				</select>
+				<br><br>
+
+				Price:<br><input type="number" placeholder="price" name="price"><br><br>
+				<input type="submit" value="Submit"></div>
+
+			</form>
+		</div>
+<!-- <div id="foot">
+	<footer> &copy;copy right 2019</footer>	
+
+	</div> -->
+	</body>
+	</html>
